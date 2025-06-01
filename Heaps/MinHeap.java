@@ -68,7 +68,8 @@ public class MinHeap<T extends Comparable<T>>{
 
 			swap(index, parent);
 			index = parent;
- 
+            parent = (index - 1) / 2;
+
 		}
 	}
 
